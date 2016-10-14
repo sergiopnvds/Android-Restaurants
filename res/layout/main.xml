@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/titutloRestarante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.19"
+            android:text="@string/restaurante"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/textoRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:ems="10"
+            android:hint="@string/hintIntroducirNombre"
+            android:textSize="10dp" >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tituloDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/direccion"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/textoDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:ems="10"
+            android:hint="@string/hintIntroducirDireccion"
+            android:textSize="10dp" >
+
+            <requestFocus />
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.12"
+            android:text="@string/telefono"
+            android:textSize="16dp"
+             />
+
+        <EditText
+            android:id="@+id/textoTelefono"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.51"
+            android:ems="10"
+            android:hint="@string/hintIntroducirTelefono"
+            android:textSize="10dp"
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tipoRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo"
+            android:textSize="16dp"  />
+
+        <RadioGroup
+            android:id="@+id/seleccionaTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/seleccionaTradicional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/tradicional"
+                android:textSize="17dp" />
+
+            <RadioButton
+                android:id="@+id/seleccionaInternacional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/internacional"
+                android:textSize="17dp"  />
+
+            <RadioButton
+                android:id="@+id/seleccionaComidaRapida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comidaRapida" 
+                android:textSize="17dp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/botonGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_weight="0.500"
+            android:onClick="creaRestaurante"
+            android:text="@string/GUARDAR" />
+
+        <Button
+            android:id="@+id/botonSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:onClick="salir"
+            android:text="@string/CANCELAR" />
+
+    </LinearLayout>
+    
+</LinearLayout>

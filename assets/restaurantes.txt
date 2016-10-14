@@ -1,0 +1,8 @@
+6
+Mc ADSW Burguer; Avda Complutense, 30; 123456789; comida rapida
+ADSW Sushi Bar; Avda Complutense, 30; 123456789; Internacional
+El Horno de ADSW; Avda Complutense, 30; 123456789; Tradicional
+El meson dorado; Calle del Pino, 30; 123456789; tradiCional
+Come y Calla; Calle del Vino, 30; 123456788; tradicional
+Fredo Fredo; Avda Alfredo Landa 25; 123456789; nose
+Pimpi y Lula; Carretera de Alfrijor, 10; 123456789; internacional

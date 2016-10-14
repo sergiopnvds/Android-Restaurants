@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/anadir" android:title="añadir"></item>
+    <item android:id="@+id/ordenar" android:title="Ordenar"></item>
+    <item android:id="@+id/cargar" android:title="Cargar"></item>
+    
+
+</menu>
